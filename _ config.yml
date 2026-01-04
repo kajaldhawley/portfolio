@@ -4,6 +4,48 @@
 #show_downloads: true 
 #theme: jekyll-theme-minimal
 
+# -----------------------
+# BASIC SITE INFO
+# -----------------------
 title: Kajal Dhawley
-description: Data Scientist Portfolio
-theme: minima
+description: Data Scientist | ML | Analytics
+author: kajald
+
+# -----------------------
+# THEME
+# -----------------------
+remote_theme: pages-themes/cayman@v0.2.0
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# -----------------------
+# SITE SETTINGS
+# -----------------------
+markdown: kramdown
+permalink: pretty
+
+# -----------------------
+# NAVIGATION (optional)
+# -----------------------
+navbar_links:
+  Projects: /projects
+  About: /about
+  Contact: /contact
+
+# -----------------------
+# SOCIAL LINKS (SEO + theme)
+# -----------------------
+github_username: your-github-kajaldhalwey
+linkedin_username: your-linkedin-kajaldhawley
+email: kajaldhawley@gmail.com
+
+# -----------------------
+# EXCLUDE FILES FROM BUILD
+# -----------------------
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
