@@ -1,51 +1,23 @@
-#title: Kajal Dhawley
-#logo:/assets/img/
-#description: text below image 
-#show_downloads: true 
-#theme: jekyll-theme-minimal
-
-# -----------------------
-# BASIC SITE INFO
-# -----------------------
 title: Kajal Dhawley
 description: Data Scientist | ML | Analytics
-author: kajald
+author: Kajal Dhawley
 
-# -----------------------
-# THEME
-# -----------------------
-#remote_theme: pages-themes/cayman@v0.2.0
 theme: jekyll-theme-minimal
-#plugins:
- # - jekyll-remote-theme
-  #- jekyll-seo-tag
 
-# -----------------------
-# SITE SETTINGS
-# -----------------------
+# Optional: shows a download button in some pages-themes
+show_downloads: true
+
+# Add your profile photo path (we’ll add the file in Step 3)
+logo: /assets/img/profile.jpg
+
+# Social links (used by some themes/plugins)
+email: kajaldhawley@gmail.com
+github_username: kajaldhawley
+
 markdown: kramdown
 permalink: pretty
 
-# -----------------------
-# NAVIGATION (optional)
-# -----------------------
-navbar_links:
-  Projects: /projects
-  About: /about
-  Contact: /contact
-
-# -----------------------
-# SOCIAL LINKS (SEO + theme)
-# -----------------------
-github_username: your-github-kajaldhalwey
-linkedin_username: your-linkedin-kajaldhawley
-email: kajaldhawley@gmail.com
-
-# -----------------------
-# EXCLUDE FILES FROM BUILD
-# -----------------------
 exclude:
-  - README.md
   - Gemfile
   - Gemfile.lock
   - node_modules
