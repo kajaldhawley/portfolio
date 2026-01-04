@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Kajal Dhawley
 
-🚀 **Data Scientist | Machine Learning | Analytics**
+🚀 Data Scientist | Machine Learning | Analytics
 
 Welcome to my personal portfolio website hosted with **GitHub Pages**.  
 This site highlights my projects, experience, and skills in data science and machine learning.
